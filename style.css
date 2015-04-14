@@ -1,0 +1,79 @@
+html,body{
+	margin-left: 5.5%;
+	margin-right: 5.5%;
+}
+
+.boldMe{
+	font-weight: bold;
+}
+
+.text{
+	font-family: sans-serif;
+}
+
+.alignRight{
+	text-align: right;
+}
+
+.header{
+	font-size: 20px;
+	padding-top: 1%;
+	width: 87%;
+	line-height: 135%;
+}
+
+.marginCenterMe{
+	margin: 0 auto;
+}
+
+.justifyMe{
+	text-align: justify;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.centerMe{
+	text-align: center;
+}
+
+.smallText{
+	font-size: 12px;
+	width: 85%;
+	border-top: 1px solid #AAAAAA;
+}
+
+.lineContainer{
+	width: 100%;
+	max-height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.flexTest{
+	flex: auto;
+	margin: auto;
+}
+
+img{
+	max-width: 100%;
+}
+
+.moveLeft{
+	padding-right: 2%;
+}
+
+.moveRight{
+	padding-left: 2%;
+}
+
+.tooLow{
+	margin-top: -1%;
